@@ -1,5 +1,5 @@
-# quasar
-Operación fuego de Quasar (trilateración y mensajes)
+# Operación fuego de Quasar (trilateración y mensajes)
+
 
 ## Introducción
 
@@ -32,6 +32,12 @@ La siguiente es una vista de los componentes involucrados en la solución:
 El api se encuentra desplegado en un contenedor de Google Cloud app engine, el cual permite desplegar de manera simple las aplicaciones, enmascarando su dirección puerto expuesto por defecto por medio de un proxy.
 
 ## Ejecución
+
+Para descargar la Colección de postman puede dirigirse al siguiente enlace: 
+
+* https://www.getpostman.com/collections/71c8a01c63780131ddc1
+
+También puede encontrar este archivo dentro de las fuentes del repositorio: QuasarGCloud.postman_collection.json
 
 La siguiente es la dirección del api expuesto en la plataforma de Google Cloud:
 
