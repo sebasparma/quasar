@@ -21,11 +21,23 @@ El siguiente es un listado de los paquetes manejados dentro del api, los cuales 
 * service: Clases con lógica de negocio.
 * service.util: Clases que exponen funciones utilitarias usadas para la lógica de negocios.
 
+* Para el cumplimiento del Nivel 3 de la Operación se optó por almacenar los datos en una base de datos H2 en memoria.
+
 ### Despliegue
 
 La siguiente es una vista de los componentes involucrados en la solución:
 
 ![Screenshot](https://github.com/sebasparma/quasar/blob/master/images/Despliegue.JPG?raw=true)
 
+El api se encuentra desplegado en un contenedor de Google Cloud app engine, el cual permite desplegar de manera simple las aplicaciones, enmascarando su dirección puerto expuesto por defecto por medio de un proxy.
 
+## Ejecución
+
+La siguiente es la dirección del api expuesto en la plataforma de Google Cloud:
+
+* Nivel 2 POST: https://trilateracionqasar.rj.r.appspot.com/topsecret
+* Nivel 3 POST: https://trilateracionqasar.rj.r.appspot.com/topsecret_split/{saellite_name}
+* Nivel 3 GET: https://trilateracionqasar.rj.r.appspot.com/topsecret_split
+
+Para mayor documentación del api: https://trilateracionqasar.rj.r.appspot.com/swagger-ui.html
 
