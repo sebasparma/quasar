@@ -47,3 +47,7 @@ La siguiente es la dirección del api expuesto en la plataforma de Google Cloud:
 
 Para mayor documentación del api: https://trilateracionqasar.rj.r.appspot.com/swagger-ui.html
 
+### Nota:
+El Api también se puede descargar y ejecutar por medio de Spring boot, por defecto se desplegará en http://localhost:8080/
+
+
