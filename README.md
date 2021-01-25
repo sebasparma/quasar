@@ -1,15 +1,15 @@
 # quasar
 Operación fuego de Quasar (trilateración y mensajes)
 
-##Introducción
+## Introducción
 
 Este Api Rest provee los servicios requeridos por la inteligencia de la operación Fuego de Quasar para la compilación de los mensajes recibidos por los tres satélites (kenobi, skywalker y sato) y determinar la posición de la fuente de estos mensajes.
 
-##Arquitectura
+## Arquitectura
 
 La siguiente es una descripción breve de la arquitectura del api.
 
-###Paquetes
+### Paquetes
 
 El siguiente es un listado de los paquetes manejados dentro del api, los cuales distribuyen las clases por sus funcionalidades.
 
