@@ -1,0 +1,158 @@
+{
+	"info": {
+		"_postman_id": "be915bcc-6c4e-4ca6-98b6-df7a352c49d2",
+		"name": "QuasarGCloud",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://trilateracionqasar.rj.r.appspot.com/topsecret_split",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://trilateracionqasar.rj.r.appspot.com/topsecret_split",
+					"protocol": "https",
+					"host": [
+						"trilateracionqasar",
+						"rj",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"topsecret_split"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://trilateracionqasar.rj.r.appspot.com/topsecret_split/sato",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"distance\": 142.7,\r\n    \"message\": [\r\n        \"este\",\r\n        \"\",\r\n        \"un\",\r\n        \"\",\r\n        \"\"\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://trilateracionqasar.rj.r.appspot.com/topsecret_split/sato",
+					"protocol": "https",
+					"host": [
+						"trilateracionqasar",
+						"rj",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"topsecret_split",
+						"sato"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://trilateracionqasar.rj.r.appspot.com/topsecret_split/skywalker",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"distance\": 115.5,\r\n    \"message\": [\r\n        \"\",\r\n        \"es\",\r\n        \"\",\r\n        \"\",\r\n        \"secreto\"\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://trilateracionqasar.rj.r.appspot.com/topsecret_split/skywalker",
+					"protocol": "https",
+					"host": [
+						"trilateracionqasar",
+						"rj",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"topsecret_split",
+						"skywalker"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://trilateracionqasar.rj.r.appspot.com/topsecret_split/kenobi",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"distance\": 100.0,\r\n    \"message\": [\r\n        \"este\",\r\n        \"\",\r\n        \"\",\r\n        \"mensaje\",\r\n        \"\"\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://trilateracionqasar.rj.r.appspot.com/topsecret_split/kenobi",
+					"protocol": "https",
+					"host": [
+						"trilateracionqasar",
+						"rj",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"topsecret_split",
+						"kenobi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://trilateracionqasar.rj.r.appspot.com/topsecret",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"satellites\": [\r\n                {\r\n            \"name\": \"kenobi\",\r\n            \"distance\": 100.0,\r\n            \"message\": [\r\n                \"este\",\r\n                \"\",\r\n                \"\",\r\n                \"mensaje\",\r\n                \"\"\r\n            ]\r\n        },\r\n        {\r\n            \"name\": \"skywalker\",\r\n            \"distance\": 115.5,\r\n            \"message\": [\r\n                \"\",\r\n                \"es\",\r\n                \"\",\r\n                \"\",\r\n                \"secreto\"\r\n            ]\r\n        },\r\n        {\r\n            \"name\": \"sato\",\r\n            \"distance\": 142.7,\r\n            \"message\": [\r\n                \"este\",\r\n                \"\",\r\n                \"un\",\r\n                \"\",\r\n                \"\"\r\n            ]\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://trilateracionqasar.rj.r.appspot.com/topsecret",
+					"protocol": "https",
+					"host": [
+						"trilateracionqasar",
+						"rj",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"topsecret"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
