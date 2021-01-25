@@ -23,7 +23,9 @@ El siguiente es un listado de los paquetes manejados dentro del api, los cuales 
 
 ### Despliegue
 
+La siguiente es una vista de los componentes involucrados en la solución:
 
+![Screenshot](https://github.com/sebasparma/quasar/blob/master/images/Despliegue.JPG?raw=true)
 
 
 
