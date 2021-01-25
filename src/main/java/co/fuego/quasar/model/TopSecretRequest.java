@@ -1,5 +1,6 @@
 package co.fuego.quasar.model;
 
+import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -14,6 +15,7 @@ import java.util.stream.Collectors;
 @NoArgsConstructor
 public class TopSecretRequest {
 
+    @ApiModelProperty(notes = "Información recibida de los satélites",name="satellites",required=true)
     private List<Satellite> satellites;
 
     public double[][] getPositions() {

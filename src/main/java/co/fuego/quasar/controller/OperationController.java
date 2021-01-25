@@ -5,6 +5,10 @@ import co.fuego.quasar.model.OperationResult;
 import co.fuego.quasar.model.Satellite;
 import co.fuego.quasar.model.TopSecretRequest;
 import co.fuego.quasar.service.OperationService;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiResponse;
+import io.swagger.annotations.ApiResponses;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,6 +19,7 @@ import org.springframework.web.bind.annotation.*;
 /**
  * Controlador que provee servicios para el cumplimiento de la Operación fuego de Quasar
  */
+@Api(value = "OperationController: Controlador que provee servicios para el cumplimiento de la Operación fuego de Quasar" )
 @Controller
 @RequestMapping("/")
 public class OperationController {
@@ -27,6 +32,10 @@ public class OperationController {
      * @param request
      * @return
      */
+    @ApiOperation(value = "Nivel 2 de la operación fuego de Quasar ", response = ResponseEntity.class, tags = "Nivel 2")
+    @ApiResponses(value = {
+            @ApiResponse(code = 200, message = "Suceess|OK"),
+            @ApiResponse(code = 404, message = "not found!!!") })
     @PostMapping("/topsecret")
     public ResponseEntity<OperationResult> topSecret(@RequestBody TopSecretRequest request) {
         try {
@@ -44,6 +53,10 @@ public class OperationController {
      * @param request
      * @return
      */
+    @ApiOperation(value = "Nivel 3 de la Operación fuego de Quasar, servicio POST ", response = ResponseEntity.class, tags = "Nivel 3")
+    @ApiResponses(value = {
+            @ApiResponse(code = 200, message = "Suceess|OK"),
+            @ApiResponse(code = 404, message = "not found!!!") })
     @PostMapping("/topsecret_split/{satellite_name}")
     public ResponseEntity<Satellite> topSecretSplit(@PathVariable("satellite_name") String satelliteName
             , @RequestBody Satellite request) {
@@ -59,6 +72,10 @@ public class OperationController {
      * Nivel 3 de la Operación fuego de Quasar, servicio GET
      * @return
      */
+    @ApiOperation(value = "Nivel 3 de la Operación fuego de Quasar, servicio GET ", response = ResponseEntity.class, tags = "Nivel 3")
+    @ApiResponses(value = {
+            @ApiResponse(code = 200, message = "Suceess|OK"),
+            @ApiResponse(code = 404, message = "not found!!!") })
     @GetMapping("/topsecret_split")
     public ResponseEntity<OperationResult> topSecretSplitGet() {
         OperationResult result;

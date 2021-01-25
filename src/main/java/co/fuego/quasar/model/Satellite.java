@@ -2,6 +2,7 @@ package co.fuego.quasar.model;
 
 import co.fuego.quasar.entity.Satellites;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -16,9 +17,13 @@ import java.util.List;
 @NoArgsConstructor
 public class Satellite {
 
+    @ApiModelProperty(notes = "Posición del satélite",name="position",required=false)
     private Position position;
+    @ApiModelProperty(notes = "Nombre del Satélite",name="name",required=false)
     private String name;
+    @ApiModelProperty(notes = "Mensaje recibido en el satélite",name="message",required=false)
     private List<String> message;
+    @ApiModelProperty(notes = "Distancia a la fuente del mensaje",name="distance",required=false)
     private double distance;
 
     @JsonIgnore
