@@ -7,7 +7,7 @@ Este Api Rest provee los servicios requeridos por la inteligencia de la operaci�
 
 ## Arquitectura
 
-La siguiente es una descripción breve de la arquitectura del api.
+La siguiente es una descripción breve de la arquitectura del api, desarrollada sobre Java 11, utilizando Spring boot y base de datos DB2.
 
 ### Paquetes
 
